@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "xani4kapvp",
+	"version": "${version}",
+	"name": "Xani4kaPvp",
+	"description": "Target armor HUD for PvP with movable on-screen position.",
+	"authors": [
+		"xani"
+	],
+	"license": "MIT",
+	"icon": "assets/xani4kapvp/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.xani.xani4kapvp.client.Xani4kaPvpClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
